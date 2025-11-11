@@ -1,0 +1,22 @@
+{
+  "eldar": {
+    "firstName": "Эльдар",                  
+    "lastName": "Жолдаскалиев",
+    "phone": "+77051134743"
+  },
+  "ernaz": {
+    "firstName": "Ерназ",
+    "lastName": "Сатыбаев",
+    "phone": "+77784291061"
+  },
+  "nurmyshev": {
+    "firstName": "Асылбек",
+    "lastName": "Нурмышев",
+    "phone": "+77053649592"
+  },
+  "rizabek": {
+    "firstName": "Ризабек",
+    "lastName": "Болатов",
+    "phone": "+77012599020"
+  }
+}
