@@ -93,4 +93,3 @@ document.addEventListener('DOMContentLoaded', () => {
     const contactId = getQueryParam("id");
     loadContact(contactId);
 });
-
