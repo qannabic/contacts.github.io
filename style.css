@@ -1,85 +1,138 @@
-body {
-  font-family: "Arial", sans-serif;
-  background: #f3f3f3;
+:root {
+  --primary-bg: #1a2e4d;      /* Темно-синий */
+  --text-white: #ffffff;
+  --icon-gold: #d4af37;       /* Золотой */
+  --card-bg: #ffffff;
+  --page-bg: #f4f7f6;
+  --input-bg: #f9f9f9;
+  --input-border: #e0e0e0;
+}
+
+* {
+  box-sizing: border-box;
   margin: 0;
   padding: 0;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+body {
+  background-color: var(--page-bg);
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100vh;
+  min-height: 100vh;
+  padding: 20px;
 }
 
-.card {
-  background: #fff;
-  padding: 30px 25px;
-  border-radius: 10px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
-  max-width: 320px;
-  width: 90%;
+.profile-card {
+  background: var(--card-bg);
+  width: 100%;
+  max-width: 400px;
+  border-radius: 20px;
+  box-shadow: 0 15px 40px rgba(0,0,0,0.08);
+  overflow: hidden;
   text-align: center;
+  padding-bottom: 20px;
 }
 
-h1 {
-  font-size: 24px;
+.card-content {
+  padding: 30px 25px;
+}
+
+/* В файле style.css найдите этот блок и замените его полностью */
+
+/* Фото */
+.photo-container {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto 20px;
+  border-radius: 50%;
+  overflow: hidden;
+  /* Добавляем синюю рамку толщиной 4px */
+  border: 4px solid #0056b3; 
+  /* Тень оставляем, она будет под рамкой */
+  box-shadow: 0 5px 15px rgba(0,0,0,0.1); 
+}
+
+.photo-container img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.info h3 {
+  color: #0056b3;
   margin-bottom: 20px;
-  color: #222;
+  font-size: 1.2rem;
 }
 
-label {
-  display: block;
-  font-weight: bold;
-  margin-bottom: 5px;
+/* Стили полей ввода */
+.input-group {
+  margin-bottom: 15px;
   text-align: left;
 }
 
-input {
+.input-group label {
+  display: block;
+  font-size: 0.8rem;
+  color: #888;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.input-group input {
   width: 100%;
-  padding: 10px;
-  margin-bottom: 15px;
-  border: 1px solid #ccc;
-  border-radius: 6px;
-  font-size: 16px;
-  box-sizing: border-box;
+  padding: 12px;
+  border: 1px solid var(--input-border);
+  background: var(--input-bg);
+  border-radius: 8px;
+  font-size: 1rem;
+  color: #333;
   transition: border-color 0.3s;
 }
 
-input:focus {
-  border-color: #000;
+.input-group input:focus {
   outline: none;
-}
-
-button {
-  width: 100%;
-  background: #000;
-  color: #fff;
-  padding: 14px;
-  border: none;
-  border-radius: 8px;
-  font-size: 16px;
-  font-weight: bold;
-  cursor: pointer;
-  transition: background 0.3s, transform 0.2s;
-  border: 1px solid #333
-}
-
-button:hover {
+  border-color: var(--primary-bg);
   background: #fff;
-  color: #000;
-  transform: scale(1.02);
 }
 
-@media (max-width: 480px) {
-  .card {
-    padding: 25px 20px;
-  }
-  h1 {
-    font-size: 22px;
-  }
-  input {
-    font-size: 15px;
-  }
-  button {
-    font-size: 15px;
-    padding: 12px;
-  }
+/* Кнопка */
+.actions {
+  margin-top: 25px;
 }
+
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  padding: 16px;
+  border-radius: 12px;
+  font-weight: 600;
+  font-size: 1rem;
+  cursor: pointer;
+  background-color: #0056b3;
+  color: var(--text-white);
+  border: none;
+  box-shadow: 0 4px 15px rgba(26, 46, 77, 0.2);
+  transition: 0.2s;
+}
+
+.btn i {
+  color: #ffffff;
+  font-size: 1.2rem;
+  margin-right: 10px;
+}
+
+.btn:hover {
+  opacity: 0.95;
+  transform: translateY(-2px);
+}
+
+#statusMessage {
+  margin-top: 10px;
+  color: green;
+  font-size: 0.9rem;
+}
+
