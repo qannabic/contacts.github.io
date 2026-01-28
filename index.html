@@ -3,23 +3,57 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <title>Визитка</title>
+  <title>Сохранение контакта</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-  <div class="card">
-    <h1>Визитка</h1>
 
-    <label for="firstName">Имя:</label>
-    <input type="text" id="firstName" />
+  <div class="profile-card">
+    
+    <div class="card-content">
+      <div class="photo-container">
+        <img src="" id="userPhoto" alt="Фото" onerror="this.src='https://via.placeholder.com/150?text=No+Photo'">
+      </div>
 
-    <label for="lastName">Фамилия:</label>
-    <input type="text" id="lastName" />
+      <div class="info">
+        <h3>Редактирование контакта</h3>
+        
+        <div class="input-group">
+          <label>Имя</label>
+          <input type="text" id="firstName" placeholder="Имя">
+        </div>
 
-    <label for="phone">Телефон:</label>
-    <input type="text" id="phone" />
+        <div class="input-group">
+          <label>Фамилия</label>
+          <input type="text" id="lastName" placeholder="Фамилия">
+        </div>
 
-    <button id="saveBtn">Сохранить в контактах</button>
+        <div class="input-group">
+          <label>Должность</label>
+          <input type="text" id="jobTitle" placeholder="Должность">
+        </div>
+
+        <div class="input-group">
+          <label>Телефон</label>
+          <input type="tel" id="phone" placeholder="+7...">
+        </div>
+
+        <div class="input-group">
+          <label>Email</label>
+          <input type="email" id="email" placeholder="example@mail.com">
+        </div>
+      </div>
+
+      <div class="actions">
+        <button id="saveBtn" class="btn">
+          <i class="fas fa-download"></i> Сохранить в телефон
+        </button>
+      </div>
+
+      <p id="statusMessage" style="display: none;">Контакт скачивается...</p>
+
+    </div>
   </div>
 
   <script src="script.js"></script>
