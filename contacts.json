@@ -2,17 +2,17 @@
   "eldar": {
     "firstName": "Эльдар",
     "lastName": "Жолдаскалиев",
-    "jobTitle": "Преподаватель IT",
+    "jobTitle": "Специалист ПО",
     "phone": "+77051134743",
     "email": "e.zholdaskaliev@apec.edu.kz",
-    "photo": "images/eldar.jpg"
+    "photo": "images/eldar.png"
   },
   "ernaz": {
     "firstName": "Ерназ",
     "lastName": "Сатыбаев",
     "jobTitle": "Системный администратор",
     "phone": "+77784291061",
-    "email": "ernaz@apec.edu.kz",
+    "email": "y.satybayev@apec.edu.kz",
     "photo": "images/ernaz.jpg"
   },
   "nurmyshev": {
@@ -23,14 +23,20 @@
     "email": "asylbek@apec.edu.kz",
     "photo": "images/default.jpg"
   },
+  "yerzhan": {
+    "firstName": "Yerzhan",
+    "lastName": "Ramazanov",
+    "jobTitle": "Director of External Cooperation",
+    "phone": "+77001281981",
+    "email": "e.ramazanov@apec.edu.kz",
+    "photo": "images/yerzhan.png"
+  },
   "rizabek": {
     "firstName": "Ризабек",
     "lastName": "Болатов",
     "jobTitle": "Директор департамента IT",
     "phone": "+77012599020",
     "email": "r_bolatov@apec.edu.kz",
-    "photo": "rizabek.png"
+    "photo": "images/rizabek.png"
   }
 }
-
-
