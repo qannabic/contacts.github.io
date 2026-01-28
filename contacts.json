@@ -29,7 +29,7 @@
     "jobTitle": "Director of External Cooperation",
     "phone": "+77001281981",
     "email": "e.ramazanov@apec.edu.kz",
-    "photo": "images/yerzhan.png"
+    "photo": "yerzhan.png"
   },
   "rizabek": {
     "firstName": "Ризабек",
@@ -37,6 +37,7 @@
     "jobTitle": "Директор департамента IT",
     "phone": "+77012599020",
     "email": "r_bolatov@apec.edu.kz",
-    "photo": "images/rizabek.png"
+    "photo": "rizabek.png"
   }
 }
+
