@@ -13,23 +13,79 @@
     "jobTitle": "Системный администратор",
     "phone": "+77784291061",
     "email": "ernaz@apec.edu.kz",
-    "photo": "ernaz.png"
+    "photo": "ernaz.jpg"
   },
   "yerzhan": {
-    "firstName": "Yerzhan",
-    "lastName": "Ramazanov",
-    "jobTitle": "Director of External Cooperation",
+    "firstName": "Ержан",
+    "lastName": "Рамазанов",
+    "jobTitle": "Директор департамента внешнего сотрудничества",
     "phone": "+77001281981",
     "email": "e.ramazanov@apec.edu.kz",
     "photo": "yerzhan.png"
   },
-   "asylbek": {
+  "asylbek": {
     "firstName": "Асылбек",
     "lastName": "Нурмышев",
     "jobTitle": "Директор",
     "phone": "+77053649592",
     "email": "a.nurmyshev@apec.edu.kz",
     "photo": "asylbek.png"
+  },
+  "togzhan": {
+    "firstName": "Тоғжан",
+    "lastName": "Қаламғали",
+    "jobTitle": "Заместитель директора по учебно-производственной практике и дуальному обучению",
+    "phone": "+77024150149",
+    "email": "togzhan@apec.edu.kz",
+    "photo": "togzhan.png"
+  },
+  "elmira": {
+    "firstName": "Эльмира",
+    "lastName": "Даурешова",
+    "jobTitle": "Заведующий учебной частью",
+    "phone": "+77785882823",
+    "email": "edaureshova@apec.edu.kz",
+    "photo": "elmira.png"
+  },
+  "polina": {
+    "firstName": "Полина",
+    "lastName": "Ибраева",
+    "jobTitle": "Руководитель отдела управления персоналом, правового обеспечения и гос. закупок",
+    "phone": "+77019209172",
+    "email": "pibraeva@apec.edu.kz",
+    "photo": "polina.png"
+  },
+  "berik": {
+    "firstName": "Берик",
+    "lastName": "Борашев",
+    "jobTitle": "Управляющий директор по административно-хозяйственным вопросам",
+    "phone": "+77014560060",
+    "email": "bborashev@apec.edu.kz",
+    "photo": "berik.png"
+  },
+  "ainur": {
+    "firstName": "Айнур",
+    "lastName": "Шакенова",
+    "jobTitle": "Заместитель директора по академической работе",
+    "phone": "+77011276655",
+    "email": "ashakenova@apec.edu.kz",
+    "photo": "ainur.png"
+  },
+  "darhan": {
+    "firstName": "Дархан",
+    "lastName": "Косанов",
+    "jobTitle": "Юрист-консультант",
+    "phone": "+77719019797",
+    "email": "d.kossanov@apec.edu.kz",
+    "photo": "darhan.png"
+  },
+  "gulbarsha": {
+    "firstName": "Гульбарша",
+    "lastName": "Камиева",
+    "jobTitle": "Главный бухгалтер",
+    "phone": "+77011107414",
+    "email": "gkamiyeva@apec.edu.kz",
+    "photo": "gulbarsha.png"
   },
   "rizabek": {
     "firstName": "Ризабек",
@@ -40,5 +96,3 @@
     "photo": "rizabek.png"
   }
 }
-
-
