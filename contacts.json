@@ -18,7 +18,7 @@
   "yerzhan": {
     "firstName": "Ержан",
     "lastName": "Рамазанов",
-    "jobTitle": "Директор департамента внешнего сотрудничества",
+    "jobTitle": "Инструктор",
     "phone": "+77001281981",
     "email": "e.ramazanov@apec.edu.kz",
     "photo": "yerzhan.png"
@@ -42,7 +42,7 @@
   "elmira": {
     "firstName": "Эльмира",
     "lastName": "Даурешова",
-    "jobTitle": "Заведующий учебной частью",
+    "jobTitle": "Менеджер производственной практики и трудоустройства",
     "phone": "+77785882823",
     "email": "edaureshova@apec.edu.kz",
     "photo": "elmira.png"
@@ -96,4 +96,5 @@
     "photo": "rizabek.png"
   }
 }
+
 
